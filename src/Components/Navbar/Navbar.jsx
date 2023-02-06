@@ -1,6 +1,7 @@
 import { CartWidget } from "../CartWidget/CartWidget"
 import { Categorias } from "./Categorias/Categorias"
 import { Secciones } from "./Secciones/Secciones"
+import React from "react"
 
 export const Navbar =({nombre}) => {
     return (
