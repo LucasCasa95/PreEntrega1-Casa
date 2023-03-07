@@ -16,12 +16,49 @@
     text-align: center;
 }
 
+.cardBodyDark{
+    background-color: hsl(0, 0%, 33%);
+    margin-top: 3px;
+    text-align: center;
+}
+
+.cartContainer{
+    margin-top: 3%;
+    margin-left: 26,5%;
+}
+
+.cardCart{
+    max-width: 640px;
+}
+
+.divButtons button{
+    margin: 4px;
+}
+
 img{
     height: 20rem;
     margin-top: 3px;
 }
 
+.imgItemDetail{
+    height: 20rem;
+}
+
 .itemDetail{
     max-width: 760px;
     margin-top: 20px;
+}
+
+.itemDetailBodyDark{
+    background-color: hsl(0, 0%, 33%);
+    color: white;
+}
+
+.contForm{
+    margin-top: 20px;
+}
+
+.darkMode{
+    background-color: black;
+    color: gainsboro;
 }
