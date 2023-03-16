@@ -1,13 +1,21 @@
 .cardProducto{
-    width: 18rem;
+    width: 20rem;
     margin: 10px;
     background-color: hsl(0, 0, 97%);
 }
 
 .cardProductos{
-    margin: 4px;
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
     align-items: center;
-    justify-content: center;
+    justify-content:center;
+    margin-left: 100px;
+    margin-top: 3px;
+}
+
+.cardComplete{
+    border: solid 3px black;
+    border-radius: 5px;
 }
 
 .cardBody{
@@ -16,10 +24,19 @@
     text-align: center;
 }
 
+.card-body{
+    margin-top: 50px;
+}
+
 .cardBodyDark{
     background-color: hsl(0, 0%, 33%);
     margin-top: 3px;
     text-align: center;
+}
+
+.cartWidget{
+    margin-right: 10px;
+    color: white;
 }
 
 .cartContainer{
@@ -47,6 +64,7 @@ img{
 .itemDetail{
     max-width: 760px;
     margin-top: 20px;
+
 }
 
 .itemDetailBodyDark{
@@ -61,4 +79,9 @@ img{
 .darkMode{
     background-color: black;
     color: gainsboro;
+}
+
+.cantCarrito{
+    padding-right: 15px;
+    color: black;
 }
